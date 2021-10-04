@@ -54,9 +54,9 @@ public class CustomerLogin extends AppCompatActivity {
     }
 
     public void Success_login_page() {
-        if (success_login == true){
-            Intent divert = new Intent (CustomerLogin.this, DevInfo.class);
-            startActivity(divert);
+        if (success_login== true){
+            Intent done = new Intent (CustomerLogin.this, MainActivity.class);
+            startActivity(done);
 
             Toast.makeText(CustomerLogin.this, "Login Success", Toast.LENGTH_SHORT).show();
         } else {
