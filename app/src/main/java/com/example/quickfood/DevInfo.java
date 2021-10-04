@@ -12,3 +12,6 @@ public class DevInfo extends AppCompatActivity {
     }
 }
 
+
+
+//test
