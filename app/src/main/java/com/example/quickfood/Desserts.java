@@ -8,10 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-
+// extends fragment for menu items
 public class Desserts extends Fragment {
-    @Nullable
-    @Override
+
+    // on creation activity_desserts
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.activity_desserts, container,false);
     }

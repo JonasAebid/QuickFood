@@ -1,13 +1,13 @@
 package com.example.quickfood;
 
 import static java.lang.System.exit;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.widget.Toolbar;
 import androidx.annotation.NonNull;
@@ -16,17 +16,22 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
 import com.google.android.material.navigation.NavigationView;
 import androidx.appcompat.app.ActionBar;
-
-
-
+// Extends activity and implements navigation view
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
+    SQLiteDatabase database;
 
-    @Override
+    TextView nameHeader;
+    TextView mailHeader;
+
+    String user_mail = CustomerLogin.getUser_Email();
+    String user_firstname = CustomerLogin.getUser_FirstName();
+    String user_lastname = CustomerLogin.getUser_LastName();
+    String user_fullname = user_firstname + " " + user_lastname;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //kode for menyen
+        //code for menu
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -43,12 +48,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Menu_Home()).commit();
             navigationView.setCheckedItem(R.id.menu_home);
-
         }
-
-        }
-
-    @Override
+        View headerView = navigationView.getHeaderView(0);
+        TextView navUsername = (TextView) headerView.findViewById(R.id.menu_user_name);
+        TextView navMail = (TextView) headerView.findViewById(R.id.menu_user_email);
+        navUsername.setText(user_fullname);
+        navMail.setText(user_mail);
+    }
+    // menu items
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
@@ -83,13 +90,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.menu_logout:
                 exit(0);
                 break;
-
-
         }
         drawer.closeDrawer(GravityCompat.START);
-
         return true;
-
     }
 
     @Override
@@ -99,11 +102,5 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }else{
             super.onBackPressed();
         }
-
     }
-    public void pasta(View view){
-        Intent pasta = new Intent(MainActivity.this, Pasta.class);
-        startActivity(pasta);
-    }
-
 }

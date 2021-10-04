@@ -8,9 +8,10 @@ import android.os.Bundle;
         import androidx.annotation.Nullable;
         import androidx.fragment.app.Fragment;
 
+// extends fragment for menu items
 public class Pasta extends Fragment {
-    @Nullable
-    @Override
+
+    // on creation activity_pasta
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.activity_pasta, container,false);
     }

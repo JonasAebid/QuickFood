@@ -16,12 +16,10 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-public class
-Menu_Home extends Fragment {
+// extends fragment for menu items
+public class Menu_Home extends Fragment {
 
-
-    @Nullable
-    @Override
+    // on creation activity_menu_home
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.activity_menu_home, container, false);
         return v;
