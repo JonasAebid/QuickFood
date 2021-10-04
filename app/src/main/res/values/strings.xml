@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuickFood</string>
+    <string name="sign_up">Sign up</string>
+    <string name="logo">Logo</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="Registration_Mistake1">Email address or password is wrong</string>
+    <string name="Registration_Mistake2">Fields can not be empty</string>
+    <string name="dev1">Application Developers:</string>
+    <string name="dev2">Jonas Ebid</string>
+    <string name="dev20">Bachelor of Information Technology student Jonas Ebid</string>
+    <string name="dev3">Bereket Atobrhan Abrha</string>
+    <string name="dev30">Bachelor of Information Technology student Bereket Atobrhan Abrha</string>
+    <string name="dev4">Daniel Tsehaie Ogbazion</string>
+    <string name="dev40">Bachelor of Information Technology student Daniel Tsehaie Ogbazion</string>
+    <string name="dev5">Aliskhan Taramov</string>
+    <string name="dev50">Bachelor of Information Technology student Aliskhan Taramov</string>
+    <string name="dev6">Sahatsawat Wongsurin</string>
+    <string name="dev60">Bachelor of Information Technology student Sahatsawat Wongsurin</string>
+    <string name="bereket_img">Bereket_img</string>
+    <string name="daniel_img">Daniel_img</string>
+    <string name="aliskhan_img">Aliskhan_img</string>
+    <string name="sahatsawat_img">Sahatsawat</string>
+    <string name="jonasebid_img">jonas_img</string>
+</resources>
