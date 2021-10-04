@@ -62,7 +62,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.menu_pasta:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Pasta()).commit();
                 break;
-
+            case R.id.menu_snacks:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Snacks()).commit();
+                break;
+            case R.id.menu_salads:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Salads()).commit();
+                break;
+            case R.id.menu_desserts:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Desserts()).commit();
+                break;
+            case R.id.menu_main_courses:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Main_Courses()).commit();
+                break;
+            case R.id.menu_settings:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Menu_Settings()).commit();
+                break;
+            case R.id.menu_order:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Menu_Order()).commit();
+                break;
             case R.id.menu_logout:
                 exit(0);
                 break;

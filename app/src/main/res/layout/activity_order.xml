@@ -8,7 +8,7 @@
 
         android:layout_width="wrap_content"
         android:layout_height="54dp"
-        android:text="@string/pasta_text"
+        android:text="@string/order_text"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

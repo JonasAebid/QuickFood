@@ -10,12 +10,18 @@
         <entry key="app/src/main/res/drawable/icon_settings.xml" value="0.1398148148148148" />
         <entry key="app/src/main/res/layout/activity_customerlogin.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_customerregistration.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/layout/activity_desserts.xml" value="0.1265625" />
         <entry key="app/src/main/res/layout/activity_devinfo.xml" value="0.10461956521739131" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main_courses.xml" value="0.1265625" />
         <entry key="app/src/main/res/layout/activity_menu_devinfo.xml" value="0.1265625" />
-        <entry key="app/src/main/res/layout/activity_menu_home.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_menu_home.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_menu_top.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_order.xml" value="0.1265625" />
         <entry key="app/src/main/res/layout/activity_pasta.xml" value="0.12864583333333332" />
+        <entry key="app/src/main/res/layout/activity_salads.xml" value="0.1265625" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.1265625" />
+        <entry key="app/src/main/res/layout/activity_snacks.xml" value="0.1265625" />
         <entry key="app/src/main/res/layout/nav_header.xml" value="0.1" />
         <entry key="app/src/main/res/menu/main_menu.xml" value="0.45" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />

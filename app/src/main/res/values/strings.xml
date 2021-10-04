@@ -1,4 +1,11 @@
 <resources>
+    <string name="order_text">Order</string>
+    <string name="settings_text">Settings</string>
+    <string name="maincourses_text">Main Courses</string>
+    <string name="desserts_text">Desserts</string>
+    <string name="salads_text">Salads</string>
+    <string name="snacks_text">Snacks</string>
+    <string name="pasta_text">Pasta</string>
     <string name="app_name">QuickFood</string>
     <string name="sign_up">Sign up</string>
     <string name="logo">Logo</string>
@@ -41,6 +48,12 @@
     <string name="menu_open" translatable="false">Open Menu</string>
     <string name="menu_close" translatable="false">Close Menu</string>
     <string name="pasta">Pasta</string>
-    <string name="HomePage">QuickFood is a resturanst bla bla bla fbsgdfsbvsdbfvs dfbvsdbvfs bsdfbvsdbvsdf
-    sdfbvsdbd bvfsdbdbs dsdbsdbs dbfsbsdfb sdbssdfb sdfbsdfbs dfbsdfbsdfbsd fbsdfbsd fbsdbdsdbds</string>
+    <string name="HomePage">Welcome To Quick Food</string>
+
+    <string name="Hometext">In 2021, Quick Food opened its first location in downtown Hønefoss.
+        Focussed entirely on serving the perfect food, the tiny take-out restaurant located in the
+        citys busy Entertainment District created a sensation in the area winning praise from food
+        critics and numerous peoples choice awards. Over the years, the Chef and founder of Quick Food,
+        Ian Angus, together with his family and friends, have opened a select number of additional Quick Food
+        restaurants.</string>
 </resources>
